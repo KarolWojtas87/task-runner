@@ -5,9 +5,13 @@
   "main": "index.js",
   "scripts": {
     "init-project": "npm install",
+    "init:dirs": "mkdirp sass css vendor images js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mkdirp": "^1.0.4"
+  }
 }
